@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #0072ff;
+}
+
+h1 {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    height: 60px;
+    width: 100%;
+    /* max-width: 1100px; */
+    text-align: center;
+    overflow: hidden;
+    align-items: center;
+}
+
+.container form div label {
+    display: inline-block;
+    width: 150px;
+    height: 8px;
+    background-color: white;
+    font-size: 1.15em;
+    font-weight: 600;
+
+
+}
+
+.container form div {
+    background-color: white;
+}
+
+.container form div input {
+    background-color: #e6e6e6;
+    display: inline-block;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 10px;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 60%;
+    height: 80vh;
+    margin-top: 10px;
+    margin-left: 250px;
+    border-radius: 10px;
+
+}
+
+.bottom {
+    display: inline-block;
+    border-bottom: 1px solid #222;
+}
+
+.bottom1 {
+    display: inline-block;
+    border-bottom: 1px solid #222;
+    margin-left: 110px;
+}
+
+.bottom2 {
+    display: inline-block;
+    border-bottom: 1px solid #222;
+    margin-left: 70px;
+}
+
+.bottom3 {
+    display: inline-block;
+    border-bottom: 1px solid #222;
+    margin-left: 70px;
+}
+
+.hello {
+    background-color: white;
+    /* border-bottom: 1px solid #666; */
+}
+
+button {
+    display: inline-block;
+    background-color: #0072ff;
+    border: none;
+    width: 150px;
+    height: 40px;
+    color: white;
+    font-size: 18px;
+    padding: 10px 30px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 6px;
+
+}
+
+button:hover {
+    background-color: #000000;
+}
+
+.container label {
+    background-color: white;
+    margin-top: 5px;
+}
+
+.container input {
+    background-color: #e6e6e6;
+    display: inline-block;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 10px;
+}
+
+footer h2 {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    height: 40px;
+    width: 100%;
+    /* max-width: 1100px; */
+    text-align: center;
+    align-items: center;
+    margin-top: 10px;
+}

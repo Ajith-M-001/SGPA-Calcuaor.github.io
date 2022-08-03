@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sgba</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <h1>SGPA Calculator</h1>
+    <div class="container">
+        <form action="" class="hello">
+            <span class="hello">
+                <div class="bottom">Subject</div>
+                <div class="bottom1">Marks</div>
+                <div class="bottom2">Credit</div>
+                <div class="bottom3">Grade</div>
+
+            </span>
+            <div>
+                <label for="">Data Structer</label>
+                <input type="text" id="ds" placeholder="enter ds marks" value="0">
+                <!-- <button onclick="fn1()">add</button> -->
+                <input type="text" size="10" value="4" readonly id="ds2">
+                <!-- <p id="ds1"></p> -->
+                <input type="text" size="10" id="ds1" value="0">
+            </div>
+
+            <div>
+                <label for="">UNIX</label>
+                <input type="number" id="unix" placeholder="enter unix marks" value="0">
+                <!-- <button onclick="fn2()">add</button> -->
+                <input type="text" size="10" value="4" readonly id="unix2">
+                <!-- <p id="unix1"></p> -->
+                <input type="text" size="10" id="unix1" value="0">
+            </div>
+
+            <div>
+                <label for="">CN</label>
+                <input type="text" id="cn" placeholder="enter cn marks" value="0">
+                <!-- <button onclick="fn3()">add</button> -->
+                <input type="text" size="10" value="4" readonly id="cn2">
+                <!-- <p id="cn1"></p> -->
+                <input type="text" size="10" id="cn1" value="0">
+            </div>
+            <div>
+                <label for="">MFCA</label>
+                <input type="text" id="mfca" placeholder="enter mfca marks" value="0">
+                <!-- <button onclick="fn4()">add</button> -->
+                <input type="text" size="10" value="4" readonly id="mfca2">
+                <!-- <p id="mfca1"></p> -->
+                <input type="text" size="10" id="mfca1" value="0">
+
+            </div>
+            <div>
+                <label for="">RM</label>
+                <input type="text" id="rm" placeholder="enter rm marks" value="0">
+                <!-- <button onclick="fn5()">add</button> -->
+                <input type="text" size="10" value="2" readonly id="rm2">
+                <!-- <p id="rm1"></p> -->
+                <input type="text" size="10" id="rm1" value="0">
+            </div>
+
+            <div>
+                <label for="">DS LAB</label>
+                <input type="text" id="ds_lab" placeholder="enter ds lab marks" value="0">
+                <!-- <button onclick="fn6()">add</button> -->
+                <input type="text" size="10" value="2" readonly id="ds_lab2">
+                <!-- <p id="ds_lab1"></p> -->
+                <input type="text" size="10" id="ds_lab1" value="0">
+            </div>
+
+            <div>
+                <label for="">UNIX LAB</label>
+                <input type="text" id="unix_lab" placeholder="enter unix lab marks" value="0">
+                <!-- <button onclick="fn7()">add</button> -->
+                <input type="text" size="10" value="2" readonly id="unix_lab2">
+                <!-- <p id="unix_lab1"></p> -->
+                <input type="text" size="10" id="unix_lab1" value="0">
+            </div>
+
+            <div>
+                <label for="">CN LAB</label>
+                <input type="text" id="cn_lab" placeholder="enter cn lab marks" value="0">
+                <!-- <button onclick="fn8()">add</button> -->
+                <input type="text" size="10" value="2" readonly id="cn_lab2">
+                <!-- <p id="cn_lab1"></p> -->
+                <input type="text" size="10" id="cn_lab1" value="0">
+            </div>
+
+        </form>
+        <button id="calc" onclick="calculate()">Calculate</button>
+        <label for="">SGPA is</label>
+        <input type="number" id="res">
+    </div>
+    <footer>
+        <h2>&copy;Ajith M</h2>
+    </footer>
+    <script src="js/script.js"> </script>
+</body>
+
+</html>
